@@ -1,0 +1,10 @@
+a=input("podaj bok a: ")
+b=input("podaj bok b: ")
+c=input("podaj bok c: ")
+a=float(a)
+b=float(b)
+c=float(c)
+p=(a+b+c)/2
+p=float(p)
+heron=(p*(p-a)*(p-b)*(p-c))**(1/2)
+print(f"Pole wynosi {heron}")
