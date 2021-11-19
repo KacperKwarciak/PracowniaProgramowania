@@ -1,0 +1,5 @@
+file = open('name.txt','w')
+file.write("Kacper_Kwarciak\n")
+file.write("UEK\n")
+file.write("Informatyka_Stosowana\n")
+file.close()
